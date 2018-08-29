@@ -1,0 +1,148 @@
+### Notes in hertz
+$C=261.63
+$Cs=277.18
+$Db=$Cs
+$D=293.66
+$Ds=311.13
+$Eb=$Ds
+$E=329.63
+$F=349.23
+$Fs=370.0
+$Gb=$Fs
+$G=392.0
+$Gs=415.3
+$Ab=$Gs
+$A=440
+$As=466.16
+$Bb=$As
+$B=493.88
+
+
+##Tempo
+$WHOLE = 1800
+            $HALF = $WHOLE / 2
+            $QUARTER = $HALF / 2
+            $EIGHTH = $QUARTER / 2
+            $SIXTEENTH = $EIGHTH / 2
+            $EIGHTHDOT = $EIGHTH + $SIXTEENTH
+            $QUARTERDOT = $QUARTER + $EIGHTH
+            $SIXTEENTHDOT = $SIXTEENTH + ($SIXTEENTH / 2)
+
+Function ChocoboSong {
+#First Bar
+[console]::beep($D*4, $QUARTER)
+[console]::beep($B*2, $EIGHTH)
+[console]::beep($G*2, $EIGHTH)
+[console]::beep($E*2, $EIGHTH)
+[console]::beep($D*4, $EIGHTH)
+[console]::beep($B*2, $EIGHTH)
+[console]::beep($G*2, $EIGHTH)
+
+[console]::beep($B*2, $QUARTER)
+[console]::beep($G*2, $QUARTER)
+[console]::beep($B*2, $QUARTERDOT)
+[console]::beep($A*2, $EIGHTH)
+
+[console]::beep($G*2, $EIGHTH)
+[console]::beep($G*2, $SIXTEENTH)
+[console]::beep($A*2, $SIXTEENTH)
+[console]::beep($G*2, $EIGHTH)
+[console]::beep($F*2, $EIGHTH)
+[console]::beep($G*2, $QUARTERDOT)
+[console]::beep($F*2, $EIGHTH)
+
+[console]::beep($G*2, $EIGHTH)
+[console]::beep($G*2, $SIXTEENTH)
+[console]::beep($B*2, $SIXTEENTH)
+[console]::beep($D*4, $EIGHTH)
+[console]::beep($E*4, $EIGHTH)
+[console]::beep($F*4, $HALF)
+
+[console]::beep($D*4, $QUARTER)
+[console]::beep($B*2, $EIGHTH)
+[console]::beep($G*2, $EIGHTH)
+[console]::beep($E*2, $EIGHTH)
+[console]::beep($D*4, $EIGHTH)
+[console]::beep($B*2, $EIGHTH)
+[console]::beep($G*2, $EIGHTH)
+
+[console]::beep($B*2, $QUARTER)
+[console]::beep($G*2, $QUARTER)
+[console]::beep($B*2, $QUARTERDOT)
+[console]::beep($A*2, $EIGHTH)
+
+[console]::beep($G*2, $EIGHTH)
+[console]::beep($G*2, $SIXTEENTH)
+[console]::beep($A*2, $SIXTEENTH)
+[console]::beep($G*2, $EIGHTH)
+[console]::beep($F*2, $EIGHTH)
+[console]::beep($G*2, $QUARTERDOT)
+[console]::beep($F*2, $EIGHTH)
+
+[console]::beep($G*2, $EIGHTH)
+[console]::beep($G*2, $SIXTEENTH)
+[console]::beep($B*2, $SIXTEENTH)
+[console]::beep($D*4, $EIGHTH)
+[console]::beep($E*4, $EIGHTH)
+[console]::beep($F*4, $HALF)
+
+[console]::beep($E*4, $QUARTER)
+[console]::beep($C*4, $EIGHTH)
+[console]::beep($A*2, $EIGHTH)
+[console]::beep($Fs*2, $EIGHTH)
+[console]::beep($A*3, $EIGHTH)
+[console]::beep($C*4, $EIGHTH)
+[console]::beep($E*4, $EIGHTH)
+
+[console]::beep($D*4, $QUARTER)
+[console]::beep($G*4, $QUARTER)
+[console]::beep($D*4, $QUARTERDOT)
+[console]::beep($B*2, $EIGHTH)
+
+[console]::beep($C*4, $QUARTER)
+[console]::beep($A*2, $EIGHTH)
+[console]::beep($Fs*2, $EIGHTH)
+[console]::beep($D*2, $EIGHTH)
+[console]::beep($F*3, $EIGHTH)
+[console]::beep($A*2, $EIGHTH)
+[console]::beep($C*4, $EIGHTH)
+
+[console]::beep($B*2, $EIGHTH)
+[console]::beep($B*2, $SIXTEENTH)
+[console]::beep($C*4, $SIXTEENTH)
+[console]::beep($B*2, $EIGHTH)
+[console]::beep($A*2, $EIGHTH)
+[console]::beep($B*2, $HALF)
+
+[console]::beep($E*4, $QUARTER)
+[console]::beep($C*4, $EIGHTH)
+[console]::beep($A*2, $EIGHTH)
+[console]::beep($Fs*2, $EIGHTH)
+[console]::beep($A*3, $EIGHTH)
+[console]::beep($C*4, $EIGHTH)
+[console]::beep($E*4, $EIGHTH)
+
+[console]::beep($D*4, $QUARTER)
+[console]::beep($G*4, $QUARTER)
+[console]::beep($D*4, $QUARTERDOT)
+[console]::beep($B*2, $EIGHTH)
+
+[console]::beep($A*2, $EIGHTH)
+[console]::beep($A*2, $SIXTEENTH)
+[console]::beep($B*2, $SIXTEENTH)
+[console]::beep($A*2, $EIGHTH)
+[console]::beep($G*2, $EIGHTH)
+[console]::beep($A*2, $QUARTERDOT)
+[console]::beep($G*2, $EIGHTH)
+
+[console]::beep($A*2, $EIGHTH)
+[console]::beep($A*2, $SIXTEENTH)
+[console]::beep($B*2, $SIXTEENTH)
+[console]::beep($C*4, $EIGHTH)
+[console]::beep($D*4, $EIGHTH)
+[console]::beep($E*4, $QUARTER)
+[console]::beep($Fs*4, $QUARTER)
+[console]::beep($g*4, $QUARTER)
+}
+
+ChocoboSong
