@@ -142,7 +142,7 @@ Function ChocoboSong {
 [console]::beep($D*4, $EIGHTH)
 [console]::beep($E*4, $QUARTER)
 [console]::beep($Fs*4, $QUARTER)
-[console]::beep($g*4, $QUARTER)
+[console]::beep($G*4, $QUARTER)
 }
 
 ChocoboSong
